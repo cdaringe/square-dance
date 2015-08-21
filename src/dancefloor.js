@@ -30,9 +30,8 @@ export default class Dancefloor extends React.Component {
                 case '40':
                 case 'right':
                     dx += 10; break;
-                    default:
-                        break;
-                }
+                default:
+                    break;
             }
             this.props.move({ dx, dy });
         });
