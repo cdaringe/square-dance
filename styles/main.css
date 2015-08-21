@@ -9,3 +9,108 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.app {
+
+}
+
+.dancefloor {
+    position: relative;
+}
+
+.square {
+    background: hotpink;
+    cursor: pointer;
+    height: 4em;
+    left: 50%;
+    margin: -2em 0 0 -2em;
+    position: absolute;
+    top: 50%;
+    width: 4em;
+}
+.square:hover .square__arrow--up,
+.square:hover .square__arrow--right,
+.square:hover .square__arrow--down,
+.square:hover .square__arrow--left {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+}
+
+.square__arrow--up,
+.square__arrow--right,
+.square__arrow--down,
+.square__arrow--left {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 2;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    -webkit-transition-duration: 300ms;
+            transition-duration: 300ms;
+    -webkit-transition-property: opacity, -webkit-transform;
+            transition-property: opacity, transform;
+}
+.square__arrow--up:before,
+.square__arrow--right:before,
+.square__arrow--down:before,
+.square__arrow--left:before {
+    background: hotpink;
+    border-radius: 50%;
+    content: '';
+    height: 2em;
+    left: 50%;
+    margin: -1em 0 0 -1em;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: background 300ms;
+            transition: background 300ms;
+    width: 2em;
+    z-index: -1;
+}
+
+.square__arrow--up:hover::before,
+.square__arrow--right:hover::before,
+.square__arrow--down:hover::before,
+.square__arrow--left:hover::before {
+    background: blue;
+}
+
+.square__arrow--up,
+.square__arrow--down {
+    left: 0;
+    height: 3em;
+    width: 100%;
+}
+.square__arrow--right,
+.square__arrow--left {
+    height: 100%;
+    top: 0;
+    width: 3em;
+}
+
+.square__arrow--up {
+    top: -3em;
+    -webkit-transform: translateY(2em);
+            transform: translateY(2em);
+}
+.square__arrow--right {
+    right: -3em;
+    -webkit-transform: translateX(-2em);
+            transform: translateX(-2em);
+}
+.square__arrow--down {
+    bottom: -3em;
+    -webkit-transform: translateY(-2em);
+            transform: translateY(-2em);
+}
+.square__arrow--left {
+    left: -3em;
+    -webkit-transform: translateX(2em);
+            transform: translateX(2em);
+}
