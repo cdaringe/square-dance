@@ -49,6 +49,8 @@ footer small {
     left: 50%;
     margin: -2em 0 0 -2em;
     position: absolute;
+    -webkit-transition: -webkit-transform 300ms;
+            transition: transform 300ms;
     top: 50%;
     width: 4em;
 }
@@ -73,6 +75,7 @@ footer small {
     font-weight: 700;
     line-height: 2;
     opacity: 0;
+    outline: none;
     position: absolute;
     text-align: center;
     -webkit-transition-duration: 300ms;
