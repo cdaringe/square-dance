@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-import Banana from './banana'
+import Dancefloor from './dancefloor';
+
 export default class App extends Component {
   render() {
+    const props = { x: 0, y: 0 };
     return (
-        <div>
-      <h1>Hello, world.</h1>
-      <Banana></Banana>
-      </div>
+        <div class="app">
+            <Dancefloor props={props} />
+            <footer>
+                <small>From cdaringe and swashcap</small>
+            </footer>
+        </div>
     );
   }
 }
