@@ -12,7 +12,8 @@ export default class App extends Component {
         <div class="app">
             <Dancefloor {...actions} square={square} />
             <footer>
-                <small>From cdaringe and swashcap</small>
+                <small>use your keys to move the square. or, hover and click arrows</small><br/>
+                <small>made with love by <a href="https://github.com/cdaringe/">cdaringe</a> and <a href="https://github.com/swashcap">swashcap</a> - fork us on <a href="https://github.com/cdaringe/square-dance">github</a></small>
             </footer>
         </div>
     );
