@@ -1,7 +1,6 @@
 /*
  * action types
  */
-
 export const MOVE_SQUARE = 'MOVE_SQUARE';
 export const SET_VISIBILITY = 'SET_VISIBILITY';
 
@@ -18,8 +17,8 @@ export const VisibilityFilters = {
  * action creators
  */
 
-export function addTodo(text) {
-  return { type: ADD_TODO, text };
+export function move(pos) {
+  return { type: MOVE_SQUARE, pos };
 }
 
 export function setVisibility(filter) {
