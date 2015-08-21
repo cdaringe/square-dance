@@ -1,21 +1,45 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
 html {
-    background: #fafafa;
-    color: black;
+    background: #e6e6e6;
+    color: #333;
     font-family: sans-serif;
     line-height: 1.5;
 }
 html,
 body {
+    height: 100%;
     margin: 0;
+    overflow: hidden;
     padding: 0;
+    width: 100%;
 }
 
 .app {
-
+    position: relative;
 }
 
 .dancefloor {
-    position: relative;
+    height: 100%;
+    padding-bottom: 2em;
+    width: 100%;
+}
+
+footer {
+    background: #ccc;
+    bottom: 0;
+    left: 0;
+    padding: .5em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+footer small {
+    font-size: 70%;
 }
 
 .square {
@@ -83,34 +107,34 @@ body {
 
 .square__arrow--up,
 .square__arrow--down {
-    left: 0;
-    height: 3em;
-    width: 100%;
+    left: -15%;
+    height: 3.5em;
+    width: 130%;
 }
 .square__arrow--right,
 .square__arrow--left {
-    height: 100%;
-    top: 0;
-    width: 3em;
+    height: 130%;
+    top: -15%;
+    width: 3.5em;
 }
 
 .square__arrow--up {
-    top: -3em;
+    top: -3.5em;
     -webkit-transform: translateY(2em);
             transform: translateY(2em);
 }
 .square__arrow--right {
-    right: -3em;
+    right: -3.5em;
     -webkit-transform: translateX(-2em);
             transform: translateX(-2em);
 }
 .square__arrow--down {
-    bottom: -3em;
+    bottom: -3.5em;
     -webkit-transform: translateY(-2em);
             transform: translateY(-2em);
 }
 .square__arrow--left {
-    left: -3em;
+    left: -3.5em;
     -webkit-transform: translateX(2em);
             transform: translateX(2em);
 }

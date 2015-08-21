@@ -6,16 +6,12 @@ export default class App extends Component {
   render() {
     const props = { x: 0, y: 0 };
     return (
-        <Provider store={store}>
-            {() =>
-                <div class="app">
-                    <Dancefloor props={props} />
-                    <footer>
-                        <small>From cdaringe and swashcap</small>
-                    </footer>
-                </div>
-            }
-        </Provider>
+        <div class="app">
+            <Dancefloor props={props} />
+            <footer>
+                <small>From cdaringe and swashcap</small>
+            </footer>
+        </div>
     );
   }
 }
