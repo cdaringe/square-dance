@@ -1,0 +1,11 @@
+html {
+    background: #fafafa;
+    color: black;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
