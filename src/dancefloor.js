@@ -23,9 +23,9 @@ export default class Dancefloor extends React.Component {
                 case '38':
                     dy += 10; break;
                 case '39':
-                    dy -= 10; break;
-                case '40':
                     dx += 10; break;
+                case '40':
+                    dy -= 10; break;
                 default:
                     break;
             }
