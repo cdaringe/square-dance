@@ -15,20 +15,16 @@ export default class Dancefloor extends React.Component {
             }, 100); // css transition delay
             let dx = 0;
             let dy = 0;
-            let key = evt.key || evt.keyIdentifier || evt.keyCode.toString();
-            switch (key.toLowerCase()) {
+            let key = evt.keyCode.toString();
+            switch (key) {
                 // 37 <, 38 ^, 39 v, 40 >
                 case '37':
-                case 'left':
                     dx -= 10; break;
                 case '38':
-                case 'up':
                     dy += 10; break;
                 case '39':
-                case 'down':
                     dy -= 10; break;
                 case '40':
-                case 'right':
                     dx += 10; break;
                 default:
                     break;
