@@ -10,8 +10,8 @@ export default function square(state = initialState, action) {
     switch (action.type) {
         case MOVE_SQUARE:
             return Object.assign({}, state, {
-                x: action.pos.x,
-                y: action.pos.y
+                x: state.x + action.pos.dx,
+                y: state.y + action.pos.dy
             });
 
         case SET_VISIBILITY:

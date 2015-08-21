@@ -9,20 +9,19 @@ export default class Square extends React.Component {
     render() {
         const { move, square } = this.props;
         const styles = this.posToStyles(square);
-
         return (
             <div style={styles} className="square">
                 <button
-                    onClick={ () => move({x: 0, y: 100 }) }
+                    onClick={ () => move({dx: 0, dy: 50 }) }
                     className="square__arrow--up">&uarr;</button>
                 <button
-                    onClick={ () => move({x: 100, y: 0 }) }
+                    onClick={ () => move({dx: 50, dy: 0 }) }
                     className="square__arrow--right">&rarr;</button>
                 <button
-                    onClick={ () => move({x: 0, y: -100 }) }
+                    onClick={ () => move({dx: 0, dy: -50 }) }
                     className="square__arrow--down">&darr;</button>
                 <button
-                    onClick={ () => move({x: -100, y: 0 }) }
+                    onClick={ () => move({dx: -50, dy: 0 }) }
                     className="square__arrow--left">&larr;</button>
             </div>
         );
