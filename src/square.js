@@ -1,11 +1,17 @@
 import React from 'react';
 
 export default class Square extends React.Component {
+    posToStyles({ x, y }) {
+        return {
+            transform: `translate(${x}px, ${-y}px)`
+        };
+    }
     render() {
         const { move, square } = this.props;
-        console.dir(this.props);
+        const styles = this.posToStyles(square);
+
         return (
-            <div className="square">
+            <div style={styles} className="square">
                 <button
                     onClick={ () => move({x: 0, y: 100 }) }
                     className="square__arrow--up">&uarr;</button>
