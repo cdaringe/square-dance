@@ -17,4 +17,8 @@ _dance sucka!_
 - `npm i`
 - `npm start`
 
+## references
+- [redux](https://www.npmjs.com/package/redux)
+- [redux-devtools](https://github.com/gaearon/redux-devtools)
+
 Open your browser to localhost:3000 and enjoy!
