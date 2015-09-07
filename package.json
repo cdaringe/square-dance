@@ -1,6 +1,6 @@
 {
   "name": "square-dance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interactive React+Redux demo of a moving square",
   "scripts": {
     "start": "NODE_ENV='development' && node server.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+    "url": "https://github.com/cdaringe/square-dance"
   },
   "keywords": [
     "react",
@@ -22,12 +22,12 @@
     "edit",
     "webpack"
   ],
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "author": "cdaringe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
+    "url": "https://github.com/cdaringe/square-dance/issues"
   },
-  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
+  "homepage": "http://cdaringe.github.io/square-dance/",
   "devDependencies": {
     "babel-eslint": "^3.1.9",
     "babel-loader": "^5.1.2",

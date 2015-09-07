@@ -20,5 +20,6 @@ _dance sucka!_
 ## references
 - [redux](https://www.npmjs.com/package/redux)
 - [redux-devtools](https://github.com/gaearon/redux-devtools)
+- [react-boilerplate](https://github.com/gaearon/react-hot-boilerplate.git)
 
 Open your browser to localhost:3000 and enjoy!
