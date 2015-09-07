@@ -5,7 +5,7 @@ _dance sucka!_
 ![Dancing clouds](http://i.giphy.com/6Bgd6Ydh4tBJe.gif)
 
 ## demo
-- see http://cdaringe.github.io/square-dance/
+- see live demo here [http://cdaringe.github.io/square-dance/](http://cdaringe.github.io/square-dance/)
 
 ## dependencies
 - nodejs

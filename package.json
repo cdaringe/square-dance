@@ -1,6 +1,6 @@
 {
   "name": "square-dance",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Interactive React+Redux demo of a moving square",
   "scripts": {
     "start": "NODE_ENV='development' && node server.js",
