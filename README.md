@@ -1,5 +1,7 @@
 # Square Dance
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cdaringe/square-dance.svg)](https://greenkeeper.io/)
+
 _dance sucka!_
 
 ![Dancing clouds](http://i.giphy.com/6Bgd6Ydh4tBJe.gif)
